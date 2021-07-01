@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="Inicio" />
+    <item android:title="Administración">
+        <menu>
+            <item
+                android:id="@+id/insertar"
+                android:icon="@drawable/insertar"
+                android:title="Insertar" />
+            <item
+                android:id="@+id/editar"
+                android:icon="@drawable/editar"
+                android:title="Editar" />
+            <item
+                android:id="@+id/eliminar"
+                android:icon="@drawable/eliminar"
+                android:title="Eliminar" />
+            <item
+                android:id="@+id/gesusuario"
+                android:icon="@drawable/gesusuario"
+                android:title="Gestionar Usuario" />
+            <item
+                android:id="@+id/papelera"
+                android:icon="@drawable/papelera"
+                android:title="Papelera" />
+        </menu>
+    </item>
+    <item android:title="Movimientos">
+        <menu>
+            <item
+                android:id="@+id/buscador"
+                android:icon="@drawable/buscador"
+                android:title="Buscar" />
+            <item
+                android:id="@+id/reportes"
+                android:icon="@drawable/reportes"
+                android:title="Reportes" />
+            <item
+                android:id="@+id/misespecies"
+                android:icon="@drawable/misespecies"
+                android:title="Mis Especies" />
+
+            <item
+                android:id="@+id/favorites"
+                android:icon="@drawable/favorites"
+                android:title="Favoritas" />
+
+            <item
+                android:id="@+id/ubicacion"
+                android:icon="@drawable/ubicacion"
+                android:title="Mapa" />
+
+            <item
+                android:id="@+id/informacion_inicio"
+                android:icon="@drawable/informacion_inicio"
+                android:title="Misceláneos" />
+        </menu>
+    </item>
+
+</menu>
